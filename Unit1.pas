@@ -10,6 +10,7 @@ type
   TForm1 = class(TForm)
     Memo1: TMemo;
     Button1: TButton;
+    Memo2: TMemo;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -27,7 +28,9 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   memo1.Lines.Clear;
-  memo1.Lines.Add('Git Test');
+  memo2.Lines.Clear;
+  memo1.Lines.Add('Git Test_1');
+  memo2.Lines.Add('Git Test_2');
 end;
 
 end.
