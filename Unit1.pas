@@ -4,13 +4,14 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
 
 type
   TForm1 = class(TForm)
     Memo1: TMemo;
     Button1: TButton;
     Memo2: TMemo;
+    RichEdit1: TRichEdit;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -31,6 +32,7 @@ begin
   memo2.Lines.Clear;
   memo1.Lines.Add('Git Test_1');
   memo2.Lines.Add('Git Test_2');
+  memo2.lines.add('Git Test_3');
 end;
 
 end.

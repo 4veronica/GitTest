@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   Caption = 'Form1'
   ClientHeight = 190
-  ClientWidth = 461
+  ClientWidth = 647
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -39,5 +39,21 @@ object Form1: TForm1
     Lines.Strings = (
       'Memo2')
     TabOrder = 2
+  end
+  object RichEdit1: TRichEdit
+    Left = 459
+    Top = 8
+    Width = 185
+    Height = 174
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Lines.Strings = (
+      'RichEdit1')
+    ParentFont = False
+    TabOrder = 3
+    Zoom = 100
   end
 end
