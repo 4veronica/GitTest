@@ -9,6 +9,8 @@ uses
 type
   TForm1 = class(TForm)
     Memo1: TMemo;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -21,5 +23,11 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  memo1.Lines.Clear;
+  memo1.Lines.Add('Git Test');
+end;
 
 end.
