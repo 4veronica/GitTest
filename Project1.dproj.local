@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.512,C:\Users\kyungwon\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\01.Program Coding\01.Delphi\06.Practice\20180417 Git T6\Project1.dproj</Transaction>
     <Transaction>1899-12-30 00:00:00.000.502,C:\Users\kyungwon\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\01.Program Coding\01.Delphi\06.Practice\20180417 Git T6\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.512,C:\Users\kyungwon\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\01.Program Coding\01.Delphi\06.Practice\20180417 Git T6\Project1.dproj</Transaction>
     <Transaction>1899-12-30 00:00:00.000.857,=C:\Users\kyungwon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.502,C:\Users\kyungwon\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\01.Program Coding\01.Delphi\06.Practice\20180417 Git T6\Unit1.pas</Transaction>
+    <Transaction>2018-04-18 11:42:33.940,=D:\01.Program Coding\01.Delphi\06.Practice\20180418 Empty T2\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>
